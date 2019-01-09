@@ -1,0 +1,138 @@
+	
+body
+{
+	 font-family: "Comic Sans MS", sans-serif;
+	 margin: 0;
+}
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 20em;
+  margin-top: -2.5em;border-radius: 30%;
+  background-color: lightgreen;
+  
+}
+#menu ul
+{
+    list-style-type: none;
+}
+p.clear
+{
+    clear: both;
+}
+header
+{
+	background-color: blue;
+	text-align: right;
+	padding:10px;
+}
+nav
+{
+    background-color: #13130D;
+     overflow: hidden;
+}
+nav ul
+{
+list-style-type: none;
+margin:0;
+padding: 0;
+
+}
+nav ul li
+{
+	float:left;
+}
+nav ul li a
+{
+	display: block;
+	color:white;
+	text-decoration:none;
+	padding: 10px 25px;
+}
+nav ul li a:hover
+{
+	 background-color: #515741;
+}
+nav ul li a.active
+{
+	   background-color: #4CAF50;
+}
+
+#book,#mobilephone,#laptop
+{
+display:none;
+}
+div {
+    margin-bottom: 40px;
+margin-left:40%;
+}
+
+div ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+div ul li a{
+     display:block;
+float:left;
+ text-decoration: none;
+ text-align: center;
+ color:white;
+ background-color: green;
+ 	padding: 10px 25px;
+
+}
+div ul li a:hover
+{
+	 background-color: #515741;
+}
+ form{
+     color: black;
+padding-top:20px;                 text-align:center;
+             }
+         input{
+                 padding:15px 45px;
+                 margin-top:30px;
+                   border-radius: 30px;
+                   outline: none;
+                   color:black;
+                   background-color: white;
+                   outline-width: 0px;
+             }
+          
+
+            button{
+                 margin-top: 20px;
+                 padding:10px 20px;
+                 border-radius: 30px;
+                 background-color: blueviolet;
+                 outline-width: 0px;
+
+             }
+            button:hover{
+                 background-color:green;
+             }
+
+             
+             
+               table{
+                margin-top: 100px;
+                    margin-left:20%;
+
+
+            }
+            th,td
+            {
+
+                border-radius:20px;
+               
+                padding:5px;
+                border-collapse: collapse;
+                text-align: center;
+            }
+             
+             
+             
+          
